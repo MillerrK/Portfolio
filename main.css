@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;500&display=swap');
+
+body {
+    background-color: #f3fafd;
+}
+
+#myNavbar {
+    background-color: #d5f2fd;
+}
+
+nav ul li a {
+    font-size: 20px !important;
+}
+
+.p {
+    font-family: 'Ysabeau Infant', sans-serif, 300;
+    font-size: 18px;
+}
+
+#footer {
+    background-color: #d5f2fd;
+}
+
+.slider {
+    background-color: #d5f2fd;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.slider_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    cursor: pointer;
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    /* line-height: 175px;
+    font-size: 40px; */
+    transition: all 0.5s;
+}
+
+.slide div {
+    width: 100%;
+    height: 100%;
+}
+
+.slider_navigation {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+}
+
+.action-prev {
+    /* left: 20px; */
+    bottom: 50px;
+}
+
+.action-next {
+    right: 0px;
+    bottom: 20px;
+}
+
+.fa-angle-right {
+    font-size: 30px;
+    color: #76baea;
+    background-color: black;
+}
+
+.card img {
+    width: 100%;
+}

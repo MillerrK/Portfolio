@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<body>
+    <nav class="navbar navbar-expand-lg p-0 sticky-top" id="myNavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#about"><img src="/images/logo1.png" alt="logo" style="height: 50px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3" data-aos="fade-right" data-aos-duration="3000" id="about">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/forPortfoli.jpg" alt="Kate" style="width: 300px;">
+            </div>
+            <div class="col-md-8 mt-4">
+                <h1 class="text-center" style="font-family: 'Ysabeau Infant', sans-serif, width 500;">About me</h1>
+                <p class="p">I'm Kate.
+                    Since 2013 living in Karmiel, Israel.
+                </p>
+                <p class="p">I studied architecture in college Ort Braude. Now I study in college "HackerU".</p>
+                <p class="p">In my projects I use these technologies:</p>
+                <div>
+                    <img src="/images/htmlcssjs.jpg" alt="htmlcssjs" style="height: 120px;">
+                    <img src="/images/typescript.png" alt="typescript" style="height: 85px; margin-top: 20px;">
+                    <img src="/images/bootstrap-logo.png" alt="Bootstrap"
+                        style="height: 85px; margin-top: 20px; margin-left: 5px;">
+                </div>
+                <p class="p">In my free time I like to take photos of nature and attend with exterior design.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="slider p-0 mt-3" data-aos="fade-up-left" data-aos-duration="3000" id="projects">
+        <h2 class="text-center ">My projects</h3>
+            <div class="slider_container" id="projectsSlides"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    <div class="container mt-2" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="3000"
+        id="contact">
+        <h1 class="text-center" style="font-family: 'Ysabeau Infant', sans-serif, width 500;">Contact me!</h1>
+        <div class="row mb-3" style="background-color: #f3fafd">
+            <div class="col-md-4">
+                <div class="text-center mt-4">
+                    <a href="mailto:Millerr.Kate@gmail.com" target="_blank">
+                        <img src="/images/gmail.png" alt="" style="width: 30px;">
+                    </a>
+                    <p>Millerr.Kate@gmail.com</p>
+                </div>
+                <div class="text-center">
+                    <a href="https://wa.link/wdt041" target="_blank"><img src="/images/whatsappicon.webp" alt=""
+                            style="width: 30px;"></a>
+
+                    <img src="/images/phoneicon.png" alt="" style="width: 30px;">
+                    <p>+972587091995</p>
+                </div>
+                <div class=" text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674.8450053145618!2d35.2798430276657!3d32.90636328901744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c338ad3328e91%3A0xa53c34bb230e23fa!2sHativat%20Golani%209%2C%20Karmiel!5e0!3m2!1sru!2sil!4v1690190615465!5m2!1sru!2sil"
+                        width="220" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="text-center mt-2">
+                    <a href="https://github.com/MillerrK/" target="_blank">
+                        <img src="/images/github.png" alt="github" style="width: 30px;"></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <form id="contactForm"></form>
+            </div>
+        </div>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-footer" id="footer">
+            <a href="#"><img src="/images/insticon.png" alt="insticon" style="height: 25px; width: 25px;"></a>
+            <a href="" target="_blank"><img src="/images/Vk_Logo.svg" alt="vklogo"
+                    style="height: 25px; width: 25px;"></a>
+            <a href="" target="_blank"><img src="/images/fbicon.png" alt="" style="height: 27px; width: 26px;"></a>
+            <a href="https://github.com/MillerrK/" target="_blank">
+                <img src="/images/github.png" alt="github" style="width: 25px;"></a>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+    <script src="slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
